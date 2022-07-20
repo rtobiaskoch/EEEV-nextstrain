@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 20 of /Users/user/GLab Dropbox/GLab_team/Projects/2022_EEEV/EEEV-nextstrain/Snakefile:
+Missing input files for rule filter:
+data/combined_metadata.tsv

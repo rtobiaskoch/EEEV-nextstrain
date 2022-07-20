@@ -1,0 +1,5070 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "13.1.0"
+  },
+  "models": {
+    "state": {
+      "alphabet": [
+        "Connecticut",
+        "Florida",
+        "Georgia",
+        "Massachusetts",
+        "New_Jersey",
+        "New_York",
+        "Vermont",
+        "Virginia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.11719772586018601,
+        0.04385437558952976,
+        0.12880486516631634,
+        0.1451523047385365,
+        0.1346043509150142,
+        0.16426883142336926,
+        0.13496929680046996,
+        0.13114824950657808
+      ],
+      "rate": 39.08281512699733,
+      "transition_matrix": [
+        [
+          0.0,
+          2.91690995959662,
+          0.7756431520191513,
+          1.8622533157034522,
+          0.7746818570282192,
+          1.7116012841754085,
+          0.7753161254030544,
+          0.7752432660979456
+        ],
+        [
+          2.91690995959662,
+          0.0,
+          1.078583125699858,
+          5.012789035385588,
+          1.5356833931346188,
+          8.807837668874066,
+          0.9569578861304829,
+          1.3753998123122009
+        ],
+        [
+          0.7756431520191513,
+          1.078583125699858,
+          0.0,
+          0.7728297265975237,
+          0.7772220826136139,
+          0.8625655965363461,
+          0.7771334242974808,
+          0.7775230528163348
+        ],
+        [
+          1.8622533157034522,
+          5.012789035385588,
+          0.7728297265975237,
+          0.0,
+          0.7711552210430006,
+          1.2769807736492398,
+          0.9995611032977753,
+          0.7720886008368857
+        ],
+        [
+          0.7746818570282192,
+          1.5356833931346188,
+          0.7772220826136139,
+          0.7711552210430006,
+          0.0,
+          0.7613199893439436,
+          0.7767975649717659,
+          0.7770645281686417
+        ],
+        [
+          1.7116012841754085,
+          8.807837668874066,
+          0.8625655965363461,
+          1.2769807736492398,
+          0.7613199893439436,
+          0.0,
+          0.7632113151107778,
+          0.9385616441339996
+        ],
+        [
+          0.7753161254030544,
+          0.9569578861304829,
+          0.7771334242974808,
+          0.9995611032977753,
+          0.7767975649717659,
+          0.7632113151107778,
+          0.0,
+          0.7770491226144494
+        ],
+        [
+          0.7752432660979456,
+          1.3753998123122009,
+          0.7775230528163348,
+          0.7720886008368857,
+          0.7770645281686417,
+          0.9385616441339996,
+          0.7770491226144494,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "10084-19_S56_2019|2019-08-15": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "10229-19-19_S57_2019|2019-08-19": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "10278-19_S58_2019|2019-08-19": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "10529-19_S59_2019|2019-08-20": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "10579-19_S60_2019|2019-08-20": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "10838-19_S61_2019|2019-08-21": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "11357-16_S45_2016|2016-09-12": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "11403-19_S64_2019|2019-08-27": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "11716-19_S66_2019|2019-08-28": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "12004-19_S68_2019|2019-08-29": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "12388-19_S69_2019|2019-09-03": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "12606-19_S70_2019|2019-09-04": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "12670-19_S71_2019|2019-09-05": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "13289-19_S72_2019|2019-09-11": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "13866-19_S73_2019|2019-09-17": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14098-17_S47_2017|2017-10-11": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14117-19_S75_2019|2019-09-23": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14149-19_S76_2019|2019-09-23": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "14229-17_S49_2017|2017-10-25": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "14275-19_S74_2019|2019-09-23": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14311-19_S78_2019|2019-09-23": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14661-19_S79_2019|2019-09-26": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "14759-19_S80_2019|2019-09-30": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "15191-19_S81_2019|2019-10-07": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "15347-19_S82_2019|2019-10-10": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "15435-19_S83_2019|2019-10-17": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "16370365_S13_2016|2016-08-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "18VX2715_S44_2018|2018-09-19": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "18VX3174_S43_2018|2018-11-01": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "19VX2817_S42_2019|2019-08-28": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "8117-19_S54_2019|2019-07-31": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "9180-19_S55_2019|2019-08-08": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB15MS260105_S5_2015|2015-07-06": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB15MS260175_S6_2015|2015-07-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB15MS260353_S12_2015|2015-09-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB15MS330238_S4_2015|2015-06-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB15MS330683_S8_2015|2015-09-01": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "ARB15MS370406_S7_2015|2015-07-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB17MS510915_S16_2017|2017-08-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB18MS350318_S22_2018|2018-09-20": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB18MS370301_S20_2018|2018-07-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "ARB19MS330484_S3_2019|2019-08-15": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "ARB19MS370212_S23_2019|2019-07-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "ARB19MS510595_S24_2019|2019-07-31": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "AY705240_1997|1997-08-01": {
+      "state": "Georgia",
+      "state_confidence": {
+        "Georgia": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "AY705241_1991|1991-06-01": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "CC19-0533_S36_2019|2019-09-10": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "CC19-0548_S37_2019|2019-09-12": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM210093_1992|1992-06-10": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM210094_1992|1992-08-17": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM210095_2008|2008-02-13": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "HM210096_1994|1994-03-27": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "HM210097_2005|2005-05-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KT153580_2012|2012-08-07": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KT153581_2012|2012-09-18": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840291_1991|1991-08-02": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840292_2013|2013-01-08": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840293_2005|2005-05-22": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840295_2003|2003-08-22": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840296_2004|2004-06-09": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840297_2008|2008-06-25": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840299_2008|2008-05-06": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840300_2010|2010-05-11": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840301_2014|2014-06-18": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840303_2005|2005-07-18": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840304_2008|2008-08-07": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840306_2003|2003-05-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840307_2005|2005-06-28": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840308_2005|2005-06-28": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840309_2001|2001-07-24": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840310_2001|2001-08-15": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840313_2010|2010-06-15": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840314_2003|2003-07-14": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840315_2008|2008-06-13": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840316_2001|2001-10-17": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840317_2001|2001-11-21": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840318_1992|1992-06-25": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840319_2003|2003-06-02": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840320_2003|2003-07-28": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840321_2009|2009-06-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840322_2002|2002-05-15": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840323_2014|2014-06-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840324_2010|2010-08-18": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840325_2005|2005-06-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840326_2004|2004-06-15": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840327_2010|2010-08-31": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840328_2005|2005-06-06": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840329_2003|2003-04-01": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840331_2010|2010-06-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840332_2003|2003-04-22": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840333_2008|2008-02-13": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840334_2010|2010-08-25": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840335_2002|2002-12-18": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840336_2008|2008-04-21": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840337_2001|2001-12-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840338_2014|2014-06-21": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840340_2003|2003-06-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840342_2001|2001-06-28": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840343_2002|2002-11-07": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840344_2008|2008-07-21": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840346_2001|2001-07-24": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840347_2009|2009-03-16": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840348_2005|2005-05-25": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840349_2002|2002-11-19": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840350_2005|2005-05-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840351_2001|2001-10-24": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840352_2013|2013-05-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840353_1991|1991-09-19": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840354_1994|1994-08-03": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840355_2014|2014-08-18": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840356_2003|2003-06-10": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840357_2010|2010-07-11": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840358_2003|2003-05-19": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840360_2010|2010-07-22": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840362_2005|2005-07-01": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840363_1994|1994-03-27": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840364_2005|2005-05-19": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840365_1992|1992-06-10": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840366_2001|2001-08-13": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840367_2002|2002-10-30": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840369_1986|1986-01-02": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840370_2002|2002-07-23": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840373_2001|2001-07-12": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840374_2013|2013-09-27": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840375_2001|2001-06-25": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KU840376_2012|2012-06-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840378_1994|1994-04-06": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KU840379_2002|2002-11-01": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000047_1975|1975-07-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000048_2010|2010-06-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000049_2011|2011-07-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000050_2012|2012-09-08": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000051_2003|2003-09-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000052_2005|2005-08-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000053_1974|1974-09-12": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000054_2010|2010-08-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000055_2006|2006-09-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000056_2010|2010-08-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000057_2006|2006-07-26": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000058_2011|2011-08-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000059_2009|2009-08-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000060_2014|2014-09-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000061_2004|2004-08-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000062_2011|2011-08-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000063_2009|2009-08-26": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000064_2009|2009-09-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000065_1974|1974-09-05": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000066_1974|1974-09-04": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000067_2009|2009-07-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000068_2006|2006-08-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000069_1974|1974-09-05": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000070_2008|2008-09-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000072_2014|2014-08-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000073_2013|2013-08-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000074_2009|2009-08-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000075_2008|2008-08-05": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000077_2005|2005-09-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000078_1971|1971-08-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000079_2003|2003-09-24": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "New_Jersey": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000080_2010|2010-08-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000081_2006|2006-09-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000082_2009|2009-09-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000083_2013|2013-08-13": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000084_2013|2013-08-05": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000085_2006|2006-09-11": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000086_2002|2002-10-11": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000087_2007|2007-07-26": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000088_2006|2006-08-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000090_2010|2010-09-09": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000091_2004|2004-09-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000092_2014|2014-07-31": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000093_2014|2014-07-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000094_2011|2011-09-12": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000095_2004|2004-09-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000096_2011|2011-09-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000097_2006|2006-09-14": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000098_2005|2005-07-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000100_2004|2004-08-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000101_2002|2002-10-16": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000102_2003|2003-09-30": {
+      "state": "Virginia",
+      "state_confidence": {
+        "Virginia": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000103_2013|2013-08-14": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000104_2006|2006-09-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000105_2008|2008-10-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000106_2007|2007-07-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000107_2009|2009-09-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000108_2013|2013-09-07": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000109_2014|2014-07-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000110_2011|2011-08-10": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000112_2006|2006-08-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000114_1971|1971-08-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000115_2007|2007-07-09": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000116_2014|2014-09-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000117_2008|2008-08-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000118_2013|2013-10-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000119_2003|2003-09-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000120_1971|1971-08-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000121_2014|2014-09-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000122_2003|2003-10-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000123_2014|2014-09-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000124_2004|2004-10-10": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000125_2008|2008-08-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000126_2014|2014-09-06": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000127_2010|2010-08-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000128_2009|2009-08-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000129_2011|2011-08-17": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000130_2004|2004-09-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000131_2008|2008-09-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000132_2006|2006-09-12": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000133_2014|2014-08-05": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000134_2011|2011-08-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000135_2014|2014-07-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000136_2005|2005-08-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000137_2014|2014-08-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000138_2011|2011-07-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000140_2010|2010-08-20": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000141_2004|2004-09-14": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000142_2013|2013-10-01": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000143_2014|2014-09-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000144_2003|2003-09-29": {
+      "state": "Virginia",
+      "state_confidence": {
+        "Virginia": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000145_2003|2003-10-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000146_2012|2012-08-17": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000147_2006|2006-08-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000148_2013|2013-07-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000149_2014|2014-08-07": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000150_2006|2006-08-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000151_2009|2009-08-13": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000152_2004|2004-09-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000153_2003|2003-09-24": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "New_Jersey": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000154_2011|2011-08-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000156_2007|2007-07-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000157_2013|2013-08-08": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000158_2011|2011-08-11": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000159_2008|2008-08-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000160_2014|2014-09-01": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000161_2011|2011-07-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000162_2009|2009-09-22": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000163_2003|2003-09-24": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "New_Jersey": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000164_2009|2009-09-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000165_2005|2005-09-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000166_2011|2011-08-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000167_2013|2013-08-22": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000168_2009|2009-07-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000169_2002|2002-10-07": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000170_2005|2005-07-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000171_2007|2007-07-11": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000172_2010|2010-09-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000173_2008|2008-08-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000174_2011|2011-08-09": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000175_2006|2006-08-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000176_2006|2006-09-11": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000177_2009|2009-08-13": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000178_2013|2013-09-10": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000180_2008|2008-09-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000183_2009|2009-09-14": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000184_2014|2014-09-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000185_2007|2007-06-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000186_2006|2006-08-10": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000187_2006|2006-08-15": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000188_2006|2006-07-26": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000189_2010|2010-09-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000190_2006|2006-09-13": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000191_2010|2010-09-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000192_2004|2004-08-20": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000193_2003|2003-09-16": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000194_2013|2013-09-10": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000195_2011|2011-08-22": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000196_2007|2007-07-25": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000198_2006|2006-09-15": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000199_2005|2005-08-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000200_2011|2011-08-18": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000201_2012|2012-08-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000202_2009|2009-09-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000203_2004|2004-07-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000204_2007|2007-04-26": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000205_2010|2010-08-12": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000207_2006|2006-09-19": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000208_2010|2010-09-08": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000209_2011|2011-09-07": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000210_2010|2010-09-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000211_2009|2009-09-22": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000212_2014|2014-07-29": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000213_2008|2008-08-26": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000214_2004|2004-09-09": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000215_2007|2007-07-11": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000216_2006|2006-08-03": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000217_2009|2009-07-28": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000218_1973|1973-10-01": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000219_2010|2010-08-31": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000220_2011|2011-08-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000221_2011|2011-07-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000222_2005|2005-07-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000223_2014|2014-07-31": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000224_2011|2011-08-20": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000225_2003|2003-09-24": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "New_Jersey": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000226_2009|2009-08-06": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000227_2009|2009-08-13": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000228_2010|2010-08-30": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX000229_2006|2006-08-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000230_2012|2012-07-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX000231_2010|2010-08-31": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029230_2014|2014-09-23": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029231_2006|2006-08-02": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029233_2012|2012-08-16": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029236_2012|2012-09-05": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029237_2006|2006-08-02": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029238_2012|2012-07-09": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029241_2007|2007-10-05": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029246_2004|2004-07-28": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029247_2006|2006-08-11": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029248_2012|2012-08-09": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029249_2004|2004-08-18": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029250_2012|2012-07-25": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029251_2005|2005-08-08": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029252_2007|2007-07-04": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029253_2006|2006-10-02": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029258_2012|2012-08-21": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029259_2004|2004-08-04": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029261_2005|2005-07-25": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029262_2006|2006-07-26": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029265_2004|2004-09-24": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029266_2006|2006-09-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029268_2009|2009-08-19": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029269_2013|2013-09-12": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029272_2004|2004-08-18": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029273_2009|2009-08-19": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029275_2011|2011-09-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029276_2006|2006-07-17": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029277_2010|2010-07-14": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029279_2013|2013-10-07": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029280_2005|2005-09-05": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029281_2009|2009-10-09": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029287_2012|2012-09-14": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029288_2012|2012-07-23": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029289_2006|2006-08-09": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029290_2010|2010-08-20": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029291_2012|2012-09-18": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029292_2006|2006-07-31": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029293_2013|2013-09-17": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029294_2009|2009-09-22": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029295_2012|2012-08-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029296_2012|2012-08-01": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029297_2006|2006-09-20": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029298_2011|2011-09-15": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029300_2007|2007-09-26": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029301_2011|2011-09-14": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029303_2005|2005-08-24": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029305_2006|2006-08-14": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029308_2010|2010-08-04": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029309_2004|2004-10-01": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029310_2006|2006-08-14": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029314_2007|2007-08-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029315_2005|2005-09-27": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029316_2012|2012-08-22": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029317_2011|2011-09-15": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "KX029318_2012|2005-08-17": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "KX029319_2013|2013-08-27": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "NM19-0698_S39_2019|2019-09-23": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.005836926599444635,
+        "Florida": 0.5120873515835969,
+        "Massachusetts": 0.010514910274997074,
+        "New_York": 0.465445171556345
+      },
+      "state_entropy": 0.8161322688263856
+    },
+    "NODE_0000004": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998874930260316
+      },
+      "state_entropy": 0.0011497339753453006
+    },
+    "NODE_0000007": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998773078524231
+      },
+      "state_entropy": 0.0012422600518319986
+    },
+    "NODE_0000008": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999484206200373
+      },
+      "state_entropy": 0.0005727352953356003
+    },
+    "NODE_0000009": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0013829742526306967,
+        "New_York": 0.9986123358543475
+      },
+      "state_entropy": 0.01055534623199042
+    },
+    "NODE_0000010": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.001476810031892272,
+        "New_York": 0.9985184538569761
+      },
+      "state_entropy": 0.011170513976465828
+    },
+    "NODE_0000012": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.02648800562357167,
+        "New_York": 0.9734567228886006
+      },
+      "state_entropy": 0.12297770642616476
+    },
+    "NODE_0000016": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.3908989607561867,
+        "New_York": 0.6082194055087006
+      },
+      "state_entropy": 0.6767856215364836
+    },
+    "NODE_0000017": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.557984553181451,
+        "New_York": 0.4419681898112412
+      },
+      "state_entropy": 0.6869291864411864
+    },
+    "NODE_0000019": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999971672575891
+      },
+      "state_entropy": 0.000341045057579755
+    },
+    "NODE_0000020": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999658196846196
+      },
+      "state_entropy": 0.00040491471936849954
+    },
+    "NODE_0000024": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.028279674796169305,
+        "New_York": 0.9716748359943448
+      },
+      "state_entropy": 0.12926720709592054
+    },
+    "NODE_0000035": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9983525505887652,
+        "New_York": 0.0015575931881645342
+      },
+      "state_entropy": 0.01263566551307188
+    },
+    "NODE_0000036": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999255863738733
+      },
+      "state_entropy": 0.0008082961454373959
+    },
+    "NODE_0000038": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999740853099911
+      },
+      "state_entropy": 0.0003138590073577609
+    },
+    "NODE_0000039": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999724252709655
+      },
+      "state_entropy": 0.0003327528417555468
+    },
+    "NODE_0000040": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.012549347157718353,
+        "Florida": 0.9759249125218945,
+        "Massachusetts": 0.008376132312643437,
+        "New_York": 0.003142195286342726
+      },
+      "state_entropy": 0.13698829415555164
+    },
+    "NODE_0000041": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999628850347738
+      },
+      "state_entropy": 0.0004371090272122333
+    },
+    "NODE_0000047": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999976262960532
+      },
+      "state_entropy": 0.0002900774234057262
+    },
+    "NODE_0000049": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999526930596931
+      },
+      "state_entropy": 0.0005347984152972139
+    },
+    "NODE_0000050": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999969572854615
+      },
+      "state_entropy": 0.0003639730302784988
+    },
+    "NODE_0000051": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999973926781114
+      },
+      "state_entropy": 3.98058805817882e-05
+    },
+    "NODE_0000053": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999773959683124
+      },
+      "state_entropy": 0.0002773142609445178
+    },
+    "NODE_0000054": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999619560487052
+      },
+      "state_entropy": 0.00044666677281562624
+    },
+    "NODE_0000055": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999412679968409
+      },
+      "state_entropy": 0.0006646817446418233
+    },
+    "NODE_0000056": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999971213533656
+      },
+      "state_entropy": 0.00034624104746994573
+    },
+    "NODE_0000060": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999682213191383
+      },
+      "state_entropy": 0.00037917985187660105
+    },
+    "NODE_0000061": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999796194756233
+      },
+      "state_entropy": 0.0002543219668410132
+    },
+    "NODE_0000062": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999999999999435
+      },
+      "state_entropy": 1.4925779850265595e-11
+    },
+    "NODE_0000064": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Florida": 0.0018637857461227365,
+        "Massachusetts": 0.002630102076504448,
+        "Vermont": 0.9953074757954247
+      },
+      "state_entropy": 0.03397140508339143
+    },
+    "NODE_0000065": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 0.999975071909799
+      },
+      "state_entropy": 0.0003140591206340861
+    },
+    "NODE_0000066": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "Florida": 0.002336714162450728,
+        "New_Jersey": 0.997435553686453
+      },
+      "state_entropy": 0.018957441045891355
+    },
+    "NODE_0000067": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.993201209944204,
+        "New_York": 0.006709642912154038
+      },
+      "state_entropy": 0.04126290142194194
+    },
+    "NODE_0000068": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 0.9999993109791594
+      },
+      "state_entropy": 1.1714119258060426e-05
+    },
+    "NODE_0000069": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9994514974787805
+      },
+      "state_entropy": 0.004961032823011866
+    },
+    "NODE_0000071": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9997234392795964
+      },
+      "state_entropy": 0.0025923093831678105
+    },
+    "NODE_0000072": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999845772391275
+      },
+      "state_entropy": 0.00019502362342566724
+    },
+    "NODE_0000073": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9911176589057352,
+        "Massachusetts": 0.008069183407857087
+      },
+      "state_entropy": 0.05405495843650529
+    },
+    "NODE_0000074": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9970583910487091,
+        "Massachusetts": 0.0025692341574937516
+      },
+      "state_entropy": 0.021443036833510877
+    },
+    "NODE_0000075": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999909736521296
+      },
+      "state_entropy": 0.00012117521849098966
+    },
+    "NODE_0000077": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913313251156
+      },
+      "state_entropy": 0.00011687645654270411
+    },
+    "NODE_0000078": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.01354299339278926,
+        "Florida": 0.9753208335215678,
+        "Massachusetts": 0.00974220619901462,
+        "New_York": 0.0013780484194392546
+      },
+      "state_entropy": 0.13702601352031768
+    },
+    "NODE_0000079": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913402998998
+      },
+      "state_entropy": 0.00011676899262811243
+    },
+    "NODE_0000080": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913450144753
+      },
+      "state_entropy": 0.00011671237935955824
+    },
+    "NODE_0000081": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.08784021754854089,
+        "Florida": 0.7470068051091399,
+        "Massachusetts": 0.07374296109923584,
+        "New_York": 0.0910864013936906
+      },
+      "state_entropy": 0.8450798716101673
+    },
+    "NODE_0000082": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.036995786895357395,
+        "Florida": 0.5277192704942663,
+        "Massachusetts": 0.19220920378764106,
+        "New_York": 0.24259233713416792
+      },
+      "state_entropy": 1.1242321171597671
+    },
+    "NODE_0000083": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915311021127
+      },
+      "state_entropy": 0.00011445107905151068
+    },
+    "NODE_0000084": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9958793930375383,
+        "Massachusetts": 0.0011508675678008683,
+        "New_York": 0.002956577933547373
+      },
+      "state_entropy": 0.02927806394124033
+    },
+    "NODE_0000085": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.7243933979263257,
+        "Massachusetts": 0.10109737350130868,
+        "New_York": 0.17354294170705392
+      },
+      "state_entropy": 0.776858618197784
+    },
+    "NODE_0000086": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.13493521645089204,
+        "Massachusetts": 0.0010900852612824494,
+        "New_York": 0.8639121358296424
+      },
+      "state_entropy": 0.4047509760570182
+    },
+    "NODE_0000087": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.017466327021610675,
+        "New_York": 0.9824647504417815
+      },
+      "state_entropy": 0.08880521555178172
+    },
+    "NODE_0000089": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.10263924712144362,
+        "New_York": 0.897303051773032
+      },
+      "state_entropy": 0.3314946889434402
+    },
+    "NODE_0000090": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.43558155545086313,
+        "Florida": 0.2789674650953721,
+        "Massachusetts": 0.2779276132521237,
+        "New_York": 0.006984068669857452
+      },
+      "state_entropy": 1.113474927103167
+    },
+    "NODE_0000091": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Connecticut": 0.2706415747867547,
+        "Florida": 0.06684405094380858,
+        "Massachusetts": 0.655771827222276,
+        "New_York": 0.006696021751039793
+      },
+      "state_entropy": 0.8453053035335106
+    },
+    "NODE_0000092": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Connecticut": 0.0028714429164381624,
+        "Florida": 0.001769317441850281,
+        "Massachusetts": 0.9952741329063981
+      },
+      "state_entropy": 0.033582270983892035
+    },
+    "NODE_0000093": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Connecticut": 0.28051328172252316,
+        "Florida": 0.050314876066623944,
+        "Massachusetts": 0.648089969145686,
+        "New_York": 0.02105300177751702
+      },
+      "state_entropy": 0.8696985151544234
+    },
+    "NODE_0000094": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9994975284694209
+      },
+      "state_entropy": 0.004405358747912434
+    },
+    "NODE_0000095": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9940036416394081,
+        "Florida": 0.0034068515908921813,
+        "Massachusetts": 0.0024274965950938925
+      },
+      "state_entropy": 0.04144358454831749
+    },
+    "NODE_0000096": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999992069787426
+      },
+      "state_entropy": 1.2487439496075957e-05
+    },
+    "NODE_0000097": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999789109130316
+      },
+      "state_entropy": 0.00025790300654559645
+    },
+    "NODE_0000098": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999910196487622
+      },
+      "state_entropy": 0.00012059111541934332
+    },
+    "NODE_0000099": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9993514346576156
+      },
+      "state_entropy": 0.00546171056823434
+    },
+    "NODE_0000100": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913322521272
+      },
+      "state_entropy": 0.00011686507068177306
+    },
+    "NODE_0000101": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913403212787
+      },
+      "state_entropy": 0.00011676873440536579
+    },
+    "NODE_0000102": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999962479189341
+      },
+      "state_entropy": 0.00044137389148311834
+    },
+    "NODE_0000103": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999817336124267
+      },
+      "state_entropy": 0.00022791726386797476
+    },
+    "NODE_0000104": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999813477439392
+      },
+      "state_entropy": 0.00023227343451766915
+    },
+    "NODE_0000105": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999758660880772
+      },
+      "state_entropy": 0.000294455397922123
+    },
+    "NODE_0000106": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999793943378603
+      },
+      "state_entropy": 0.0002546969363858817
+    },
+    "NODE_0000107": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999768205224769
+      },
+      "state_entropy": 0.0002823180460066432
+    },
+    "NODE_0000108": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913450149982
+      },
+      "state_entropy": 0.00011671237308829378
+    },
+    "NODE_0000109": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9997122038448024
+      },
+      "state_entropy": 0.002706333088511873
+    },
+    "NODE_0000110": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915311021255
+      },
+      "state_entropy": 0.00011445107889828532
+    },
+    "NODE_0000111": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999750175701608
+      },
+      "state_entropy": 0.0002997241923706237
+    },
+    "NODE_0000112": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.7212163809145083,
+        "Georgia": 0.10058355613241464,
+        "Massachusetts": 0.003049882382397208,
+        "New_York": 0.1718984832660677
+      },
+      "state_entropy": 0.8094613803938757
+    },
+    "NODE_0000117": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9963014424332038,
+        "New_Jersey": 0.002912824581111591
+      },
+      "state_entropy": 0.026962739481145994
+    },
+    "NODE_0000118": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999909242354337
+      },
+      "state_entropy": 0.00012172316726827807
+    },
+    "NODE_0000119": {
+      "state": "New_Jersey",
+      "state_confidence": {
+        "Florida": 0.006579262998560348,
+        "New_Jersey": 0.9931838448635841
+      },
+      "state_entropy": 0.04215831606875324
+    },
+    "NODE_0000120": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913298047213
+      },
+      "state_entropy": 0.00011689426731462409
+    },
+    "NODE_0000121": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999583559011453
+      },
+      "state_entropy": 0.0005017193585996649
+    },
+    "NODE_0000122": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999675808468075
+      },
+      "state_entropy": 0.00038631368111982753
+    },
+    "NODE_0000123": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913401437813
+      },
+      "state_entropy": 0.00011677085622816973
+    },
+    "NODE_0000124": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999814631095916
+      },
+      "state_entropy": 0.00023114820406809687
+    },
+    "NODE_0000125": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913404073346
+      },
+      "state_entropy": 0.000116767710127895
+    },
+    "NODE_0000126": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9997755874008536
+      },
+      "state_entropy": 0.0021849006087303483
+    },
+    "NODE_0000127": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913404139809
+      },
+      "state_entropy": 0.00011676763079172353
+    },
+    "NODE_0000128": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.999991340411315
+      },
+      "state_entropy": 0.00011676766264700548
+    },
+    "NODE_0000129": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913402991385
+      },
+      "state_entropy": 0.00011676900481370471
+    },
+    "NODE_0000130": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.14448623841672303,
+        "New_York": 0.8553926582574167
+      },
+      "state_entropy": 0.4143675825174794
+    },
+    "NODE_0000131": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913358078205
+      },
+      "state_entropy": 0.0001168229465681464
+    },
+    "NODE_0000132": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.999991149725895
+      },
+      "state_entropy": 0.0001190795208457037
+    },
+    "NODE_0000133": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915264958465
+      },
+      "state_entropy": 0.00011450651442962628
+    },
+    "NODE_0000134": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913358077469
+      },
+      "state_entropy": 0.0001168229474506161
+    },
+    "NODE_0000135": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913402962292
+      },
+      "state_entropy": 0.00011676903957304404
+    },
+    "NODE_0000136": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9995708353826293
+      },
+      "state_entropy": 0.0038036028489394943
+    },
+    "NODE_0000137": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913402963032
+      },
+      "state_entropy": 0.00011676903869000493
+    },
+    "NODE_0000138": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913358107319
+      },
+      "state_entropy": 0.00011682291178716538
+    },
+    "NODE_0000139": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.40056294180323493,
+        "Massachusetts": 0.4904981753804403,
+        "New_York": 0.005628218143261106,
+        "Vermont": 0.10003017143479624
+      },
+      "state_entropy": 0.9976955611599703
+    },
+    "NODE_0000140": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999911498438867
+      },
+      "state_entropy": 0.00011907811218824878
+    },
+    "NODE_0000143": {
+      "state": "Vermont",
+      "state_confidence": {
+        "Vermont": 0.9999994391340479
+      },
+      "state_entropy": 9.677715764638747e-06
+    },
+    "NODE_0000144": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.010244134901060471,
+        "Massachusetts": 0.9890051487701693
+      },
+      "state_entropy": 0.06381713363007126
+    },
+    "NODE_0000145": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915309900764
+      },
+      "state_entropy": 0.00011445242246370262
+    },
+    "NODE_0000146": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915221216935
+      },
+      "state_entropy": 0.00011455884349642418
+    },
+    "NODE_0000149": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0027472911665429767,
+        "New_York": 0.9972458676023945
+      },
+      "state_entropy": 0.019041840650238947
+    },
+    "NODE_0000150": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998126231569994
+      },
+      "state_entropy": 0.0018117797963435281
+    },
+    "NODE_0000151": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999426413567734
+      },
+      "state_entropy": 0.0006298431828056912
+    },
+    "NODE_0000153": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998121186087442
+      },
+      "state_entropy": 0.0018161184127920816
+    },
+    "NODE_0000154": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999395211466244
+      },
+      "state_entropy": 0.0006604611455083868
+    },
+    "NODE_0000156": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518761105798
+      },
+      "state_entropy": 0.000538321537893211
+    },
+    "NODE_0000157": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999487740025074
+      },
+      "state_entropy": 0.0005693109848175895
+    },
+    "NODE_0000158": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.01872351820803931,
+        "Massachusetts": 0.9798042909391758,
+        "New_York": 0.001378204856765368
+      },
+      "state_entropy": 0.10451348064699673
+    },
+    "NODE_0000159": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999492723132115
+      },
+      "state_entropy": 0.0005643593412849675
+    },
+    "NODE_0000160": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999470748263743
+      },
+      "state_entropy": 0.0005862370640641011
+    },
+    "NODE_0000161": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517817643573
+      },
+      "state_entropy": 0.0005392652601033878
+    },
+    "NODE_0000162": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517817643573
+      },
+      "state_entropy": 0.0005392652601033878
+    },
+    "NODE_0000164": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517656538863
+      },
+      "state_entropy": 0.0005394260484884786
+    },
+    "NODE_0000165": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495469748826
+      },
+      "state_entropy": 0.0005616266098841029
+    },
+    "NODE_0000166": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495534461091
+      },
+      "state_entropy": 0.0005615622372357617
+    },
+    "NODE_0000167": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999519004455263
+      },
+      "state_entropy": 0.0005380782790617448
+    },
+    "NODE_0000169": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999998021306136
+      },
+      "state_entropy": 3.3264965621902676e-06
+    },
+    "NODE_0000171": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495474929161
+      },
+      "state_entropy": 0.0005616214590833728
+    },
+    "NODE_0000172": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999606086409156
+      },
+      "state_entropy": 0.0004601046394001755
+    },
+    "NODE_0000173": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494172587353
+      },
+      "state_entropy": 0.0005629174595066158
+    },
+    "NODE_0000174": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999493049266089
+      },
+      "state_entropy": 0.0005640351123719687
+    },
+    "NODE_0000175": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999470765514785
+      },
+      "state_entropy": 0.0005862199908595029
+    },
+    "NODE_0000176": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999951781847452
+      },
+      "state_entropy": 0.000539264429685536
+    },
+    "NODE_0000177": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999951781847452
+      },
+      "state_entropy": 0.000539264429685536
+    },
+    "NODE_0000178": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999491674183039
+      },
+      "state_entropy": 0.0005654027606053603
+    },
+    "NODE_0000179": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999469453155907
+      },
+      "state_entropy": 0.0005875194493339241
+    },
+    "NODE_0000180": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755329734
+      },
+      "state_entropy": 0.0005393275415073925
+    },
+    "NODE_0000181": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494228657485
+      },
+      "state_entropy": 0.0005628616926854717
+    },
+    "NODE_0000182": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518941629193
+      },
+      "state_entropy": 0.0005381410887865779
+    },
+    "NODE_0000183": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999468150759235
+      },
+      "state_entropy": 0.0005888087109991705
+    },
+    "NODE_0000184": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517692664314
+      },
+      "state_entropy": 0.000539390173368354
+    },
+    "NODE_0000185": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999469456267919
+      },
+      "state_entropy": 0.000587516366537302
+    },
+    "NODE_0000186": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755479325
+      },
+      "state_entropy": 0.0005393273919817575
+    },
+    "NODE_0000187": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9986245029769477,
+        "Massachusetts": 0.0013098436162297974
+      },
+      "state_entropy": 0.010720358675734672
+    },
+    "NODE_0000188": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9956298810256763,
+        "Massachusetts": 0.003995508775569465
+      },
+      "state_entropy": 0.029572594343479832
+    },
+    "NODE_0000189": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9998462000091101
+      },
+      "state_entropy": 0.0016156518753582096
+    },
+    "NODE_0000190": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755479325
+      },
+      "state_entropy": 0.0005393273919817575
+    },
+    "NODE_0000191": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999500406955707
+      },
+      "state_entropy": 0.0005737341582570725
+    },
+    "NODE_0000194": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.0056406391815421305,
+        "Massachusetts": 0.9941711261787919
+      },
+      "state_entropy": 0.03684181754915628
+    },
+    "NODE_0000198": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9760119277896485,
+        "Massachusetts": 0.023311859768053333
+      },
+      "state_entropy": 0.11662684803263369
+    },
+    "NODE_0000199": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.024875818767575417,
+        "Massachusetts": 0.9749387373154689
+      },
+      "state_entropy": 0.11842297039105852
+    },
+    "NODE_0000200": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999973676327398
+      },
+      "state_entropy": 4.0159337528735145e-05
+    },
+    "NODE_0000201": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999973515882743
+      },
+      "state_entropy": 4.038712451914668e-05
+    },
+    "NODE_0000202": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999973765940884
+      },
+      "state_entropy": 4.0034236590175765e-05
+    },
+    "NODE_0000203": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.999991526498758
+      },
+      "state_entropy": 0.00011450647957231345
+    },
+    "NODE_0000204": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9634704040069537,
+        "Massachusetts": 0.0012125729921490815,
+        "New_York": 0.035276086578154696
+      },
+      "state_entropy": 0.162431678838463
+    },
+    "NODE_0000207": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999913404167983
+      },
+      "state_entropy": 0.00011676759677628005
+    },
+    "NODE_0000208": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9690669298638781,
+        "New_York": 0.030852544881697634
+      },
+      "state_entropy": 0.13859880070459596
+    },
+    "NODE_0000209": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.08439120843275577,
+        "New_York": 0.9154766103316807
+      },
+      "state_entropy": 0.29083374997512595
+    },
+    "NODE_0000210": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9707719957852922,
+        "Massachusetts": 0.010391470891992955,
+        "New_York": 0.01875556406660661
+      },
+      "state_entropy": 0.15166982071540008
+    },
+    "NODE_0000211": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998227743228256
+      },
+      "state_entropy": 0.00172437292648182
+    },
+    "NODE_0000212": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999457954130699
+      },
+      "state_entropy": 0.0005987199281773134
+    },
+    "NODE_0000216": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999314965026769
+      },
+      "state_entropy": 0.0007381768018249881
+    },
+    "NODE_0000217": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999486424097336
+      },
+      "state_entropy": 0.0005706156546686938
+    },
+    "NODE_0000218": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518565658674
+      },
+      "state_entropy": 0.0005385168907463731
+    },
+    "NODE_0000220": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9997289987139691
+      },
+      "state_entropy": 0.002621227308974863
+    },
+    "NODE_0000221": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9997350977813813
+      },
+      "state_entropy": 0.0024524940574840717
+    },
+    "NODE_0000222": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9840856253594902,
+        "New_York": 0.01585312821127004
+      },
+      "state_entropy": 0.08214352386238952
+    },
+    "NODE_0000223": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0507623258507318,
+        "New_York": 0.9491586452814895
+      },
+      "state_entropy": 0.2016756226850552
+    },
+    "NODE_0000225": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998152244612346
+      },
+      "state_entropy": 0.0017893831034948302
+    },
+    "NODE_0000226": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999426319284899
+      },
+      "state_entropy": 0.0006299364405101749
+    },
+    "NODE_0000227": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999949079256462
+      },
+      "state_entropy": 0.0005662773147151717
+    },
+    "NODE_0000228": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494055147866
+      },
+      "state_entropy": 0.0005630342301562452
+    },
+    "NODE_0000229": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999949422039846
+      },
+      "state_entropy": 0.0005628699089906181
+    },
+    "NODE_0000230": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494231778011
+      },
+      "state_entropy": 0.0005628585931532651
+    },
+    "NODE_0000231": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494291995072
+      },
+      "state_entropy": 0.0005627987053645955
+    },
+    "NODE_0000232": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999515675155931
+      },
+      "state_entropy": 0.0005414051214945472
+    },
+    "NODE_0000233": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495475080344
+      },
+      "state_entropy": 0.0005616213087059742
+    },
+    "NODE_0000234": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999490480753936
+      },
+      "state_entropy": 0.0005665871369808875
+    },
+    "NODE_0000235": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999519001595822
+      },
+      "state_entropy": 0.0005380811375026448
+    },
+    "NODE_0000236": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0026954920163863396,
+        "New_York": 0.9972976094813736
+      },
+      "state_entropy": 0.018736784816040148
+    },
+    "NODE_0000237": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999973246429709
+      },
+      "state_entropy": 3.714308597995168e-05
+    },
+    "NODE_0000238": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998152232044432
+      },
+      "state_entropy": 0.0017893939276834548
+    },
+    "NODE_0000239": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999426243877773
+      },
+      "state_entropy": 0.0006300104387992251
+    },
+    "NODE_0000240": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999489474361986
+      },
+      "state_entropy": 0.0005675878101519869
+    },
+    "NODE_0000241": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999468029849539
+      },
+      "state_entropy": 0.0005889283016222483
+    },
+    "NODE_0000242": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999946944987068
+      },
+      "state_entropy": 0.000587522696020756
+    },
+    "NODE_0000244": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999999999985641
+      },
+      "state_entropy": 3.88307335865664e-11
+    },
+    "NODE_0000245": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755171166
+      },
+      "state_entropy": 0.0005393276999368682
+    },
+    "NODE_0000247": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999542528164415
+      },
+      "state_entropy": 0.0005144218955808786
+    },
+    "NODE_0000248": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999466764833201
+      },
+      "state_entropy": 0.0005901802501389479
+    },
+    "NODE_0000249": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999946814031252
+      },
+      "state_entropy": 0.000588819044333423
+    },
+    "NODE_0000250": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517692161086
+      },
+      "state_entropy": 0.0005393906762570089
+    },
+    "NODE_0000251": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494162454675
+      },
+      "state_entropy": 0.0005629275316879196
+    },
+    "NODE_0000252": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518938441139
+      },
+      "state_entropy": 0.0005381442756716501
+    },
+    "NODE_0000253": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999466764855167
+      },
+      "state_entropy": 0.0005901802285155353
+    },
+    "NODE_0000254": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517625976908
+      },
+      "state_entropy": 0.0005394568236834381
+    },
+    "NODE_0000255": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999946806699002
+      },
+      "state_entropy": 0.0005888915802873597
+    },
+    "NODE_0000256": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999951768862994
+      },
+      "state_entropy": 0.0005393942051289181
+    },
+    "NODE_0000257": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999492777878738
+      },
+      "state_entropy": 0.0005643049341743099
+    },
+    "NODE_0000258": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999949149553855
+      },
+      "state_entropy": 0.0005655801020065137
+    },
+    "NODE_0000259": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517552570869
+      },
+      "state_entropy": 0.0005395301740611771
+    },
+    "NODE_0000260": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999467932871067
+      },
+      "state_entropy": 0.0005890242565219088
+    },
+    "NODE_0000262": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999519001587289
+      },
+      "state_entropy": 0.0005380811462489123
+    },
+    "NODE_0000263": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999465512018805
+      },
+      "state_entropy": 0.0005914198019859375
+    },
+    "NODE_0000264": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494289000926
+      },
+      "state_entropy": 0.0005628016828454844
+    },
+    "NODE_0000265": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518932058673
+      },
+      "state_entropy": 0.00053815065578564
+    },
+    "NODE_0000266": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999466761586246
+      },
+      "state_entropy": 0.000590183464633568
+    },
+    "NODE_0000268": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999518935092931
+      },
+      "state_entropy": 0.0005381476226438351
+    },
+    "NODE_0000269": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999949284351753
+      },
+      "state_entropy": 0.0005642396765310726
+    },
+    "NODE_0000270": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494096168043
+      },
+      "state_entropy": 0.0005629934571681973
+    },
+    "NODE_0000271": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999492979389886
+      },
+      "state_entropy": 0.0005641045872271587
+    },
+    "NODE_0000272": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999590701906439
+      },
+      "state_entropy": 0.0004780823659078571
+    },
+    "NODE_0000273": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999469456293014
+      },
+      "state_entropy": 0.0005875163453669588
+    },
+    "NODE_0000274": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999816814010369
+      },
+      "state_entropy": 0.00022850865430693019
+    },
+    "NODE_0000275": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9998791628953322
+      },
+      "state_entropy": 0.001214795931409563
+    },
+    "NODE_0000276": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999691687006962
+      },
+      "state_entropy": 0.0003787923901879481
+    },
+    "NODE_0000277": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.99994929829246
+      },
+      "state_entropy": 0.0005641010731528509
+    },
+    "NODE_0000278": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494166052069
+      },
+      "state_entropy": 0.0005629239582394534
+    },
+    "NODE_0000279": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494225842381
+      },
+      "state_entropy": 0.0005628644956761158
+    },
+    "NODE_0000280": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999667128372635
+      },
+      "state_entropy": 0.00039547405022581444
+    },
+    "NODE_0000281": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999949422871455
+      },
+      "state_entropy": 0.0005628616395267901
+    },
+    "NODE_0000282": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999638937183213
+      },
+      "state_entropy": 0.0004262470183087125
+    },
+    "NODE_0000283": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494225842427
+      },
+      "state_entropy": 0.0005628644956302554
+    },
+    "NODE_0000284": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999411505332763
+      },
+      "state_entropy": 0.00068772874010867
+    },
+    "NODE_0000285": {
+      "state": "Florida",
+      "state_confidence": {
+        "Connecticut": 0.00216058845349681,
+        "Florida": 0.9970316202729129
+      },
+      "state_entropy": 0.022527592348202834
+    },
+    "NODE_0000286": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494166052982
+      },
+      "state_entropy": 0.0005629239573296835
+    },
+    "NODE_0000287": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999492982942685
+      },
+      "state_entropy": 0.0005641010551760925
+    },
+    "NODE_0000288": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999469456650337
+      },
+      "state_entropy": 0.0005875159918189799
+    },
+    "NODE_0000289": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999992811149899
+      },
+      "state_entropy": 1.102737713297051e-05
+    },
+    "NODE_0000290": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755498054
+      },
+      "state_entropy": 0.0005393273732972454
+    },
+    "NODE_0000292": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999793397528154
+      },
+      "state_entropy": 0.0002543856852233043
+    },
+    "NODE_0000293": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9998488040194417
+      },
+      "state_entropy": 0.0015099652981774526
+    },
+    "NODE_0000295": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999816494664904
+      },
+      "state_entropy": 0.00021999959838169518
+    },
+    "NODE_0000296": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999331174818845
+      },
+      "state_entropy": 0.0007424491134030203
+    },
+    "NODE_0000297": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494229041699
+      },
+      "state_entropy": 0.0005628613141628398
+    },
+    "NODE_0000298": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495471903176
+      },
+      "state_entropy": 0.0005616244689651136
+    },
+    "NODE_0000299": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999519001442796
+      },
+      "state_entropy": 0.0005380812904703348
+    },
+    "NODE_0000300": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.048681987445647903,
+        "New_York": 0.9512307491537426
+      },
+      "state_entropy": 0.19561996400712492
+    },
+    "NODE_0000301": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0023882859491149,
+        "New_York": 0.9976050925320988
+      },
+      "state_entropy": 0.016898205383671944
+    },
+    "NODE_0000303": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9831520730830323,
+        "New_York": 0.01666333877085799
+      },
+      "state_entropy": 0.08654246872023608
+    },
+    "NODE_0000304": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999729775028647
+      },
+      "state_entropy": 0.00032129350857554545
+    },
+    "NODE_0000305": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999908761612447
+      },
+      "state_entropy": 0.00012229244147856941
+    },
+    "NODE_0000306": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.999991519438833
+      },
+      "state_entropy": 0.00011459059132198729
+    },
+    "NODE_0000307": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9783690089247236,
+        "New_York": 0.021529985038591794
+      },
+      "state_entropy": 0.10504880359374394
+    },
+    "NODE_0000308": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.5259433929780262,
+        "Massachusetts": 0.0014392860581512918,
+        "New_York": 0.40505900625625,
+        "Virginia": 0.06605852955846772
+      },
+      "state_entropy": 0.9043305815541137
+    },
+    "NODE_0000309": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.002554138783763753,
+        "New_York": 0.9974348042743331
+      },
+      "state_entropy": 0.01795106618693402
+    },
+    "NODE_0000312": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.007525028562568809,
+        "New_York": 0.9924566366068622
+      },
+      "state_entropy": 0.044532363341435406
+    },
+    "NODE_0000313": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9995946769296324
+      },
+      "state_entropy": 0.0035945001994047874
+    },
+    "NODE_0000314": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999348228898873
+      },
+      "state_entropy": 0.0007059770095606257
+    },
+    "NODE_0000315": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999912294760496
+      },
+      "state_entropy": 0.0001180501099018086
+    },
+    "NODE_0000316": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999915279695
+      },
+      "state_entropy": 0.00011448820972341797
+    },
+    "NODE_0000321": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Connecticut": 0.010944693561094492,
+        "Florida": 0.0010667696548130154,
+        "Massachusetts": 0.9878853718532495
+      },
+      "state_entropy": 0.06981998551197832
+    },
+    "NODE_0000322": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999965329563774
+      },
+      "state_entropy": 0.0004106910584534525
+    },
+    "NODE_0000323": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999805206473222
+      },
+      "state_entropy": 0.00024174294656295424
+    },
+    "NODE_0000324": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999115006297872
+      },
+      "state_entropy": 0.0009310692911087989
+    },
+    "NODE_0000325": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9971796005095066,
+        "New_York": 0.002812929324181702
+      },
+      "state_entropy": 0.019432393658577046
+    },
+    "NODE_0000327": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999733425376889
+      },
+      "state_entropy": 0.00032157923081821936
+    },
+    "NODE_0000328": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999718638306924
+      },
+      "state_entropy": 0.0003390014760330507
+    },
+    "NODE_0000331": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999939374162812
+      },
+      "state_entropy": 7.920009703887178e-05
+    },
+    "NODE_0000332": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9998083799568037
+      },
+      "state_entropy": 0.0018479260217090223
+    },
+    "NODE_0000333": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999450984010969
+      },
+      "state_entropy": 0.0006055920328205509
+    },
+    "NODE_0000335": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.05235950746103112,
+        "New_York": 0.9475614373037795
+      },
+      "state_entropy": 0.20632665444102938
+    },
+    "NODE_0000341": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755171166
+      },
+      "state_entropy": 0.0005393276999368682
+    },
+    "NODE_0000344": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.002695491121949012,
+        "New_York": 0.9972976103758516
+      },
+      "state_entropy": 0.018736779526292383
+    },
+    "NODE_0000345": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9997943971371045
+      },
+      "state_entropy": 0.001967767243279769
+    },
+    "NODE_0000354": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517613443244
+      },
+      "state_entropy": 0.0005394693357851332
+    },
+    "NODE_0000355": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.999999855039999
+      },
+      "state_entropy": 2.4292413783569858e-06
+    },
+    "NODE_0000356": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999974604719931
+      },
+      "state_entropy": 3.5394330359622965e-05
+    },
+    "NODE_0000357": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9996840755520138
+      },
+      "state_entropy": 0.0030948101374907765
+    },
+    "NODE_0000358": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999379060862712
+      },
+      "state_entropy": 0.0006813232732439337
+    },
+    "NODE_0000360": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999488953417612
+      },
+      "state_entropy": 0.0005681680988821251
+    },
+    "NODE_0000361": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999493968316404
+      },
+      "state_entropy": 0.0005631212893164143
+    },
+    "NODE_0000362": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494215922373
+      },
+      "state_entropy": 0.0005628743680931105
+    },
+    "NODE_0000363": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494228534995
+      },
+      "state_entropy": 0.0005628618181656445
+    },
+    "NODE_0000364": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494232189753
+      },
+      "state_entropy": 0.0005628581837193817
+    },
+    "NODE_0000365": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494292015907
+      },
+      "state_entropy": 0.0005627986846478558
+    },
+    "NODE_0000366": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999495475081395
+      },
+      "state_entropy": 0.0005616213076600719
+    },
+    "NODE_0000367": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999519001595872
+      },
+      "state_entropy": 0.0005380811374520786
+    },
+    "NODE_0000368": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517755480843
+      },
+      "state_entropy": 0.0005393273904976765
+    },
+    "NODE_0000369": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9993946216528709
+      },
+      "state_entropy": 0.005469895071644646
+    },
+    "NODE_0000370": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999857953769113
+      },
+      "state_entropy": 0.00018630235644576115
+    },
+    "NODE_0000372": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494092926747
+      },
+      "state_entropy": 0.0005629966762590157
+    },
+    "NODE_0000388": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999517682170781
+      },
+      "state_entropy": 0.0005394006601065085
+    },
+    "NODE_0000393": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999494029917204
+      },
+      "state_entropy": 0.0005630593380705202
+    },
+    "NODE_0000395": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999492986128573
+      },
+      "state_entropy": 0.0005640978878830266
+    },
+    "NODE_0000404": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9994861622398769
+      },
+      "state_entropy": 0.004412648225938631
+    },
+    "NODE_0000408": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999617063500239
+      },
+      "state_entropy": 0.0004446681676960891
+    },
+    "NODE_0000412": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9912965343427098,
+        "New_York": 0.00839721957398303
+      },
+      "state_entropy": 0.05152205106442095
+    },
+    "NODE_0000416": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999996457590373
+      },
+      "state_entropy": 5.745462759906103e-06
+    },
+    "NODE_0000417": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999999998904627
+      },
+      "state_entropy": 2.672302999085346e-09
+    },
+    "NODE_0000423": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9992760282367014
+      },
+      "state_entropy": 0.005971107766664467
+    },
+    "NODE_0000432": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999967953382283
+      },
+      "state_entropy": 0.00038974699443061436
+    },
+    "NODE_0000435": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9485350254545779,
+        "Florida": 0.04574205790143187,
+        "New_York": 0.0052599435141502775
+      },
+      "state_entropy": 0.22266747345387278
+    },
+    "NODE_0000436": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999968743719173
+      },
+      "state_entropy": 4.405891074673956e-05
+    },
+    "NODE_0000438": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9999999997347417
+      },
+      "state_entropy": 6.377140426468535e-09
+    },
+    "NODE_0000441": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9668424882713033,
+        "Florida": 0.023371118268884532,
+        "New_York": 0.009786073805942298
+      },
+      "state_entropy": 0.1656724533471485
+    },
+    "NODE_0000444": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9559282881627796,
+        "Florida": 0.04020192517249392,
+        "New_York": 0.0036687075597821896
+      },
+      "state_entropy": 0.19469859596556782
+    },
+    "NODE_0000448": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9997877586878802
+      },
+      "state_entropy": 0.0021571056697867116
+    },
+    "NODE_0000449": {
+      "state": "New_York",
+      "state_confidence": {
+        "Connecticut": 0.011171633677037881,
+        "Florida": 0.0025614909846183686,
+        "New_York": 0.9861519793518023
+      },
+      "state_entropy": 0.08042677288268733
+    },
+    "NODE_0000450": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9996897361772333
+      },
+      "state_entropy": 0.0030467630315146443
+    },
+    "NODE_0000451": {
+      "state": "New_York",
+      "state_confidence": {
+        "Connecticut": 0.010913037857353996,
+        "Florida": 0.0025125582088041157,
+        "New_York": 0.9864622095712774
+      },
+      "state_entropy": 0.07894555173528534
+    },
+    "NODE_0000453": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 0.9999513914273347
+      },
+      "state_entropy": 0.0005432259043301889
+    },
+    "NODE_0000465": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.976954894507881,
+        "New_York": 0.022966234341998182
+      },
+      "state_entropy": 0.11026953495217093
+    },
+    "NODE_0000466": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0028411609554609947,
+        "New_York": 0.9971580992388827
+      },
+      "state_entropy": 0.019508388952676748
+    },
+    "NODE_0000472": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9999630155619952
+      },
+      "state_entropy": 0.0004372674411610544
+    },
+    "NODE_0000473": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9998257734184038
+      },
+      "state_entropy": 0.0017911499302232469
+    },
+    "NODE_0000475": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9932196819942002,
+        "Massachusetts": 0.006453756370719893
+      },
+      "state_entropy": 0.042094193315651424
+    },
+    "NODE_0000476": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999880555582839
+      },
+      "state_entropy": 0.0001474529785943865
+    },
+    "NODE_0000481": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9997658124265948
+      },
+      "state_entropy": 0.0023396021349026434
+    },
+    "NODE_0000482": {
+      "state": "Connecticut",
+      "state_confidence": {
+        "Connecticut": 0.9923482107369007,
+        "Florida": 0.007214551073516829
+      },
+      "state_entropy": 0.04699104792745798
+    },
+    "NODE_0000486": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.07079106017713956,
+        "New_York": 0.9290874739006106
+      },
+      "state_entropy": 0.25704153452706047
+    },
+    "NODE_0000487": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.001538664158661265,
+        "Massachusetts": 0.9983902948693029
+      },
+      "state_entropy": 0.012266295241412194
+    },
+    "NODE_0000491": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9996575963536226
+      },
+      "state_entropy": 0.0031090085745815467
+    },
+    "NODE_0000492": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9828960151674045,
+        "New_York": 0.017039415160691754
+      },
+      "state_entropy": 0.08703213826439767
+    },
+    "NODE_0000494": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.999840422753837
+      },
+      "state_entropy": 0.0016664470146073732
+    },
+    "NODE_0000495": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9901229874043892,
+        "Massachusetts": 0.009579127422068984
+      },
+      "state_entropy": 0.0569286144476722
+    },
+    "NODE_0000496": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Florida": 0.025218739105851838,
+        "Massachusetts": 0.9745962401387581
+      },
+      "state_entropy": 0.11967550021653085
+    },
+    "NODE_0000497": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9993589629015097
+      },
+      "state_entropy": 0.005406252652985247
+    },
+    "NODE_0000498": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.99913422592731
+      },
+      "state_entropy": 0.007048470716786583
+    },
+    "NODE_0000500": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9742766706768184,
+        "New_York": 0.025623961264697105
+      },
+      "state_entropy": 0.12029606088351169
+    },
+    "NODE_0000501": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.07112988895839532,
+        "New_York": 0.9287573567404964
+      },
+      "state_entropy": 0.25782412598122995
+    },
+    "NODE_0000502": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0026539865831861024,
+        "New_York": 0.9973369369727285
+      },
+      "state_entropy": 0.01851949692841144
+    },
+    "NODE_0000503": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.0033120643842346397,
+        "New_York": 0.9966791313845721
+      },
+      "state_entropy": 0.022341833650330004
+    },
+    "NODE_0000506": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9905128612862206,
+        "New_York": 0.009414402921585586
+      },
+      "state_entropy": 0.054129802837514014
+    },
+    "NODE_0000508": {
+      "state": "Florida",
+      "state_confidence": {
+        "Florida": 0.9998238173550463
+      },
+      "state_entropy": 0.0017219528434204618
+    },
+    "NODE_0000517": {
+      "state": "New_York",
+      "state_confidence": {
+        "Florida": 0.01796510637483726,
+        "New_York": 0.9819516677353339
+      },
+      "state_entropy": 0.09098096423933225
+    },
+    "RAB15ANI04939_2015|2015-09-02": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "RAB15ANI05065-01-00_S10_2015|2015-09-12": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "RAB15ANI05176_2015|2015-09-24": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "RAB16ANI05362-01-00_S14_2016|2016-08-23": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "RAB16ANI06320-01-00_S15_2016|2016-10-21": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "RAB19ANI05450_S3_2019|2019-08-27": {
+      "state": "New_York",
+      "state_confidence": {
+        "New_York": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL18-1166_S27_2018|2018-09-17": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL18-1204_S28_2018|2018-09-26": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL19-0635_S29_2019|2019-07-22": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL19-0643_S40_2019|2019-07-22": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL19-1219_S41_2019|2019-08-07": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL19-1319_S32_2019|2019-08-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 0.9999999999999999
+      },
+      "state_entropy": -9.99866855976916e-13
+    },
+    "SL19-1332_S31_2019|2019-08-13": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    },
+    "SL19-1569_S35_2019|2019-08-29": {
+      "state": "Massachusetts",
+      "state_confidence": {
+        "Massachusetts": 1.0
+      },
+      "state_entropy": -1.000088900581841e-12
+    }
+  }
+}

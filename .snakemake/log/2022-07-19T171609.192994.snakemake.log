@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+export           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            3              1              1
+
+Select jobs to execute...
+
+[Tue Jul 19 17:16:09 2022]
+Job 5: Translating amino acid sequences
+
+
+[Tue Jul 19 17:16:09 2022]
+Job 3: Inferring ancestral traits for state
+
+[Tue Jul 19 17:16:10 2022]
+Error in rule translate:
+    jobid: 5
+    output: results/aa_muts.json
+    shell:
+        
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/reference.gb             --output-node-data results/aa_muts.json         
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jul 19 17:16:13 2022]
+Finished job 3.
+1 of 3 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/user/GLab Dropbox/GLab_team/Projects/2022_EEEV/EEEV-nextstrain/.snakemake/log/2022-07-19T171609.192994.snakemake.log

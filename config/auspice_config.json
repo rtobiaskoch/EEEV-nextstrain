@@ -1,0 +1,35 @@
+{
+  "title": "Global West Nile virus",
+  "maintainers": [
+    {"name": "Tobias Koch", "url": "http://grubaughlab.com/"}
+  ],
+  "build_url": "https://github.com/rtobiaskoch/EEEV-nextstrain",
+  "colorings": [
+
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "state",
+      "title": "state",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "state"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "state",
+    "year"
+  ]
+}

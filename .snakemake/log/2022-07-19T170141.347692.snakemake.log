@@ -1,0 +1,63 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+clades           1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            7              1              1
+
+Select jobs to execute...
+
+[Tue Jul 19 17:01:41 2022]
+Job 2: Building tree
+
+[Tue Jul 19 17:02:10 2022]
+Finished job 2.
+1 of 7 steps (14%) done
+Select jobs to execute...
+
+[Tue Jul 19 17:02:10 2022]
+Job 1: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 100 IQDs from clock expectation
+        
+
+[Tue Jul 19 17:06:21 2022]
+Finished job 1.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Tue Jul 19 17:06:21 2022]
+Job 3: Inferring ancestral traits for country state region
+
+
+[Tue Jul 19 17:06:21 2022]
+Job 4: Reconstructing ancestral sequences and mutations
+
+[Tue Jul 19 17:06:22 2022]
+Error in rule traits:
+    jobid: 3
+    output: results/traits.json
+    shell:
+        
+        augur traits             --tree results/tree.nwk             --metadata data/study_dataset.csv             --output-node-data results/traits.json             --columns country state region             --confidence
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jul 19 17:06:36 2022]
+Finished job 4.
+3 of 7 steps (43%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/user/GLab Dropbox/GLab_team/Projects/2022_EEEV/EEEV-nextstrain/.snakemake/log/2022-07-19T170141.347692.snakemake.log

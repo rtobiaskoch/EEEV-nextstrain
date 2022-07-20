@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+export        1              1              1
+total         1              1              1
+
+Select jobs to execute...
+
+[Tue Jul 19 17:48:01 2022]
+Job 0: Exporting data files for for auspice
+
+[Tue Jul 19 17:48:03 2022]
+Error in rule export:
+    jobid: 0
+    output: auspice/EEEV_USA.json
+    shell:
+        
+        augur export v2             --tree results/tree.nwk             --metadata data/study_dataset.csv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output auspice/EEEV_USA.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /Users/user/GLab Dropbox/GLab_team/Projects/2022_EEEV/EEEV-nextstrain/.snakemake/log/2022-07-19T174801.840060.snakemake.log

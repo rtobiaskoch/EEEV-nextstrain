@@ -1,0 +1,43 @@
+Changes from WNV build
+1 changed reference.gb genome
+2 removed data from clades, lat_long, colors
+3 edited auspice_config removed filters that arent in build and changed region to county to match the metadata naming scheme
+
+
+augur index \
+    --sequences data/study_dataset.fasta \
+    --output results/sequence_index.tsv
+
+
+
+rule filter:
+    message:
+        """
+        Filtering to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - from {params.min_date} onwards
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequence_index = sequence_index_file,
+        sequences = input_fasta,
+        metadata = input_metadata,
+        exclude = dropped_strains
+    output:
+        sequences = "results/filtered.fasta"
+    params:
+        group_by = "country year month",
+        sequences_per_group = 100,
+        min_date = 1900
+    shell:
+        """
+        augur filter \
+            --sequence-index {input.sequence_index} \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --output {output.sequences} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group} \
+            --min-date {params.min_date}
+        """
