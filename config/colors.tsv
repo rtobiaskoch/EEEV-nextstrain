@@ -1,6 +1,16 @@
-region	Europe	#ff933b
-region	North America	#4671eb
-region	South America	#f83628
-region	Africa	#54a0db
-region	Asia	#bcd661
-region	Oceania	#84ce92
+state	Florida	#406191
+state	Louisiana	#4B648E
+state	Texas	#55678A
+state	Mississippi	#606B87
+state	Georgia	#6A6E83
+state	Virginia	#757180
+state	Maryland	#80747C
+state	Delaware	#8A7779
+state	New Jersey	#957B75
+state	New York	#9F7E72
+state	Connecticut	#AA816E
+state	Rhode Island	#B5846B
+state	Massachusetts	#BF8767
+state	Vermont	#CA8B64
+state	New Hampshire	#D48E60
+state	Michigan	#DF915D

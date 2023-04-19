@@ -12,6 +12,11 @@
       "type": "continuous"
     },
     {
+      "key": "state_group",
+      "title": "Group",
+      "type": "categorical"
+    },
+    {
       "key": "state",
       "title": "state",
       "type": "categorical"

@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+ancestral        1              1              1
+export           1              1              1
+filter           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            7              1              1
+
+Select jobs to execute...
+RuleException in line 20 of /Users/user/GLab Dropbox/GLab_team/Projects/2022_EEEV/EEEV-nextstrain/Snakefile:
+'InputFiles' object has no attribute 'dropped_strains'

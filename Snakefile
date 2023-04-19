@@ -17,10 +17,31 @@ lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json",
 sequence_index_file = "data/sequence_index.tsv"
 
+rule filter:
+    message:
+        """
+        Filtering to
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequences = input_fasta,
+        metadata = input_metadata,
+        exclude = dropped_strains
+    output:
+        sequences = "results/filtered.fasta"
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --exclude {input.exclude} \
+            --output {output.sequences}
+        """
+
 rule tree:
     message: "Building tree"
     input:
-        alignment = input_fasta
+        alignment = rules.filter.output.sequences
     output:
         tree = "results/tree_raw.nwk"
     shell:
@@ -41,7 +62,7 @@ rule refine:
         """
     input:
         tree = rules.tree.output.tree,
-        alignment = input_fasta,
+        alignment = rules.filter.output.sequences,
         metadata = input_metadata
     output:
         tree = "results/tree.nwk",
@@ -49,7 +70,7 @@ rule refine:
     params:
         coalescent = "opt",
         date_inference = "marginal",
-        clock_filter_iqd = 1
+        clock_filter_iqd = 10
     shell:
         """
         augur refine \
@@ -69,7 +90,7 @@ rule ancestral:
     message: "Reconstructing ancestral sequences and mutations"
     input:
         tree = rules.refine.output.tree,
-        alignment = input_fasta
+        alignment = rules.filter.output.sequences
     output:
         node_data = "results/nt_muts.json"
     params:
